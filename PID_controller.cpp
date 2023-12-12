@@ -7,12 +7,12 @@ PID_controller::PID_controller(double kp, double ki, double kd, unsigned long wi
     _ki = ki;
     _kd = kd; 
     _int_time = millis(); 
+    _currentTime = millis(); 
     _windup_time = windup_time; 
 }
 
 float PID_controller::compute(float setpoint, float input)
 {
-    _currentTime = millis();
     _elapsedTime = _currentTime - _previousTime; 
     _Error = setpoint - input; 
     _intError_current = (_Error + _prevError)*_elapsedTime/2; //Integral calculated as first degree regresion
