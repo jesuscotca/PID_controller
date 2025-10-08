@@ -1,0 +1,56 @@
+#######################################
+# Syntax Coloring Map For PID_Control
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+PID_controller	KEYWORD1
+PID_Manager	KEYWORD1
+PIDController	KEYWORD1
+PIDConfig	KEYWORD1
+PIDState	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+compute	KEYWORD2
+reset	KEYWORD2
+resetAll	KEYWORD2
+setOutputLimits	KEYWORD2
+setTunings	KEYWORD2
+setDerivativeFilter	KEYWORD2
+setMaxError	KEYWORD2
+setWindupTime	KEYWORD2
+enableWindupLimit	KEYWORD2
+setMode	KEYWORD2
+getError	KEYWORD2
+getIntegralError	KEYWORD2
+getDerivativeError	KEYWORD2
+getMaxCorrection	KEYWORD2
+getMode	KEYWORD2
+addPID	KEYWORD2
+removePID	KEYWORD2
+enablePID	KEYWORD2
+update	KEYWORD2
+setSampleTime	KEYWORD2
+getIntegral	KEYWORD2
+getDerivative	KEYWORD2
+getLastUpdateTime	KEYWORD2
+getDeltaTime	KEYWORD2
+getPIDCount	KEYWORD2
+init	KEYWORD2
+setDeltaTime	KEYWORD2
+setFilter	KEYWORD2
+enable	KEYWORD2
+getNumPIDs	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+MAX_PID_CONTROLLERS	LITERAL1
+DEFAULT_SAMPLE_TIME	LITERAL1
+PID_CONTROL_VERSION	LITERAL1
