@@ -1,5 +1,19 @@
-#ifndef PID_controller_h 
-#define PID_controller_h 
+/*
+ * PID_controller.h
+ * 
+ * Clase individual de control PID con todas las características.
+ * Ideal para proyectos simples o cuando necesitas flexibilidad máxima.
+ * 
+ * Características:
+ * - Anti-windup dual (por tiempo y saturación)
+ * - Filtro derivativo configurable
+ * - Límites de salida
+ * - Modo manual/automático
+ * - Cambio dinámico de parámetros
+ */
+
+#ifndef PID_CONTROLLER_H 
+#define PID_CONTROLLER_H 
 
 #include <Arduino.h>
 
@@ -68,4 +82,4 @@ class PID_controller
         float constrainOutput(float output);
 }; 
 
-#endif
+#endif // PID_CONTROLLER_H

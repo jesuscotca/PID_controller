@@ -1,5 +1,11 @@
+/*
+ * PID_controller.cpp
+ * 
+ * Implementación de la clase PID_controller
+ */
+
 #include <Arduino.h>
-#include <PID_controller.h>
+#include "PID_controller.h"
 
 PID_controller::PID_controller(double kp, double ki, double kd, unsigned long windup_time)
 {
